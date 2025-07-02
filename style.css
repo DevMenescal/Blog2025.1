@@ -1,0 +1,144 @@
+/* Ajuste Geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', Times New Roman, Times, serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #444;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: #37a1f7;
+}
+/* Fim do Ajuste Geral */
+
+/* Navbar */
+#navbar{
+    padding: 24px 40px;
+    border-bottom: 2px solid #ddd;
+}
+
+#navbarInner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#navLinks{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+/* Fim Navbar */
+
+/* Conteúdo Principal */
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 32px 40px;
+    gap: 48px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.post{
+    margin-bottom: 40px;
+}
+
+.post img{
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.title,
+.description,
+.author{
+    margin-bottom: 16px;
+}
+
+.title{
+    font-size: 32px;
+}
+
+.author{
+    color: #333;
+    font-weight: bold;
+}
+/* Fim do conteúdo principal */
+
+/* Barra Lateral */
+
+#searchBar,
+#categories,
+#tags{
+    padding: 24px;
+    border: 1px solid #ddd;
+    margin-bottom: 16px;
+}
+
+#searchBar h4,
+#categories h4,
+#tags h4{
+    margin-bottom: 24px;
+    font-size: 25.6px;
+}
+
+#searchBar form{
+    display: flex;
+    flex-direction: row;
+}
+
+#searchBar input{
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+}
+
+#searchBar input[type="submit"]{
+    background-color: #37a1f7;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+#categories li{
+    margin-bottom: 16px;
+}
+
+#tagsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+#tagsContainer a{
+    background-color: #ddd;
+    padding: 8px 11.2px;
+    border-radius: 5px;
+}
+/* Fim da Barra Lateral */
+
+/* Rodapé */
+#footer{
+    border-top: 2px solid #ddd;
+    padding: 48px;
+    text-align: center;
+}
+
+#footer h2,
+#footer p{
+    margin-bottom: 16px;
+}
+/* Finaliza o Rodapé */
